@@ -28,11 +28,11 @@
 
 | Проект | Что тестировал |
 |--------|---------------|
-| **[WEB - Форма: уровень английского (логика)](./Project_en_level_Form_log.md)** | Валидация полей | 
-| **[WEB - Форма: уровень английского (вёрстка)](./Project_en_level_Form_vers.md)** | Frontend |
-| **[API: Создание корпорации](./Project_create_corporation.md)** | Работа методов GET, POST, DELETE |  
-| **[API: Раздел «Перелёты»](./Project_per.md)** | Работа методов GET, POST, PATCH, DELETE,  бэкенд + фронтенд |
-| **[БД - работа с бзами данных (SQL)](./SQLeducation.md)** | Базы данных | 
+| **[WEB - Форма: уровень английского (логика)](./WEB/Project_en_level_Form_log.md)** | Валидация полей |
+| **[WEB - Форма: уровень английского (вёрстка)](./WEB/Project_en_level_Form_vers.md)** | Frontend |
+| **[API: Создание корпорации](./API/Project_create_corporation.md)** | Работа методов GET, POST, DELETE |
+| **[API: Раздел «Перелёты»](./API/Project_per.md)** | Работа методов GET, POST, PATCH, DELETE, бэкенд + фронтенд |
+| **[БД - работа с базами данных (SQL)](./SQL/SQLeducation.md)** | Базы данных |
 
 ---
 
