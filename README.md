@@ -9,7 +9,7 @@
 
 - **Теория тестирования**: база.
 - **Инструменты**: Jira, Qase, Miro, Figma, Chrome DevTools, Perfect Pixel, Charles (breakpoints, Map Local/Remote), Postman, Swagger
-- **Базы данных**: SQL — SELECT, FROM, WHERE, LIMIT, OFFSET, IN, BETWEEN, LIKE, COUNT, IS NULL, DISTINCT, агрегатные функции, GROUP BY, ORDER BY, HAVING, JOIN ON(INNER/LEFT/RIGHT/FULL), алиасы(AS),  INSERT/UPDATE/DELETE
+- **Базы данных**: SQL 
 - **Дополнительно**: клиент-серверная архитектура, HTTP/HTTPS, статус-коды, браузерные движки (Blink, WebKit, Gecko), снифферы, кросс-браузерное тестирование
 
 ---
@@ -20,7 +20,7 @@
 |-------|----------|
 | [WEB_Tests](./WEB_Tests) | Проекты по тестированию веб-сервисов |
 | [API_Tests](./API_Tests) | Проекты по тестированию API |
-| [SQL](./SQL) | SQL-запросы для проверки данных в БД |
+| [SQL](./SQL) | SQL команды для взаимодействия с БД |
 
 ---
 
