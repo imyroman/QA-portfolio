@@ -22,10 +22,10 @@
 | [API_Tests](./API_Tests) | Проекты по тестированию API |
 | [SQL](./SQL) | SQL команды для взаимодействия с БД |
 | [Certificates](https://github.com/imyroman/QA-portfolio/tree/main/Certificates) | Сертификаты о прохождении курсов  |
-| [my_resume](https://github.com/imyroman/QA-portfolio/tree/main/Certificates) | Мое резюме  |
+| [my_resume](https://github.com/imyroman/QA-portfolio/blob/main/my_resume.pdf) | Мое резюме  |
 
 ---
-https://github.com/imyroman/QA-portfolio/blob/main/my_resume.pdf
+
 ## Список моих проектов
 
 | Проект | Что тестировал |
