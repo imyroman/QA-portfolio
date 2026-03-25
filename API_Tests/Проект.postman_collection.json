@@ -1,0 +1,523 @@
+{
+  "info": {
+    "_postman_id": "f17f0984-963f-4fae-8b9b-30c7b822a7b1",
+    "name": "Проект \"Брейни Go\"",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "53343676",
+    "_collection_link": "https://go.postman.co/collection/53343676-f17f0984-963f-4fae-8b9b-30c7b822a7b1?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Users",
+      "item": [
+        {
+          "name": "Создать нового пользователя",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "\r\n{\r\n  \"avatar_url\": \"https://s3.ru1.storage.beget.cloud/bb4e0f3f0f81-brainy-platform/API%2FGO%2Fcandidate2.png\",\r\n  \"email\": \"user@brainy.run\",\r\n  \"name\": \"Брейни\",\r\n  \"password\": \"superpassword\",\r\n  \"role\": \"user\",\r\n  \"username\": \"brainythebest\"\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{URL}}/go/create_user",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "go",
+                "create_user"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Получить пользователя по ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{URL}}/go/get_user/777",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "go",
+                "get_user",
+                "777"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Получить всех пользователей",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{URL}}/go/get_users",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "go",
+                "get_users"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Corporation",
+      "item": [
+        {
+          "name": "Создать новую корпорацию",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"description\": \"hello world\",\r\n  \"name\": \"Bestcore\",\r\n  \"owner_id\": 2781\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{URL}}/go/create_corporation",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "go",
+                "create_corporation"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Получить все корпорации",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"description\": \"Ешь свои фрукты, Спортакус. Мы уже победили!\",\r\n  \"logo_url\": \"https://s3.ru1.storage.beget.cloud/bb4e0f3f0f81-brainy-platform/API%2FGO%2Frobbie.jpg\",\r\n  \"name\": \"RobbiZlo Inc.\",\r\n  \"owner_id\": 310\r\n}"
+            },
+            "url": {
+              "raw": "{{URL}}/go/get_corporations?=",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "go",
+                "get_corporations"
+              ],
+              "query": [
+                {
+                  "key": "",
+                  "value": ""
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Ship",
+      "item": [
+        {
+          "name": "Получить все типы кораблей",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{URL}}/go/get_ship_types",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "go",
+                "get_ship_types"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Добавить новый корабль",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"corporation_id\": 3327,\r\n  \"name\": \"Экспрессолет\",\r\n  \"type_id\": 4\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{URL}}/go/add_ship",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "go",
+                "add_ship"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Удалить корабль по ID",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{URL}}/go/delete_ship/721",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "go",
+                "delete_ship",
+                "721"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Получить корабли по корпорации",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"corporation_id\": 3327,\r\n  \"name\": \"Экспрессолет\",\r\n  \"type_id\": 4\r\n}"
+            },
+            "url": {
+              "raw": "{{URL}}/go/get_ships/3327",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "go",
+                "get_ships",
+                "3327"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Trip",
+      "item": [
+        {
+          "name": "Добавить новый рейс",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"date\": \"2326-03-23\",\r\n  \"route_id\": 1611,\r\n  \"ship_id\": 720\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{URL}}/go/add_trip",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "go",
+                "add_trip"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Удалить рейс по ID",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{URL}}/go/delete_trip/99999",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "go",
+                "delete_trip",
+                "99999"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Изменить стоимость рейса",
+          "request": {
+            "method": "PATCH",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<EditTripCostRequest>\r\n\t<newCost>0</newCost>\r\n\t<tripId>100000</tripId>\r\n</EditTripCostRequest>",
+              "options": {
+                "raw": {
+                  "language": "xml"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{URL}}/go/edit_trip_cost",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "go",
+                "edit_trip_cost"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Получить рейс для корпорации",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{URL}}/go/get_trips/3327",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "go",
+                "get_trips",
+                "3327"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Route",
+      "item": [
+        {
+          "name": "Создать новый маршрут",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"distance\": 0.09,\r\n  \"from_id\": 1,\r\n  \"to_id\": 1\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{URL}}/go/create_route",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "go",
+                "create_route"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Удаление маршрута по ID",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{URL}}/go/delete_route/101",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "go",
+                "delete_route",
+                "101"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Получение всех маршрутов",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{URL}}/go/get_routes",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "go",
+                "get_routes"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Destination",
+      "item": [
+        {
+          "name": "Добавить новый пункт назначения",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Общага\"\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{URL}}/go/add_destination",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "go",
+                "add_destination"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Удалить пункт",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{URL}}/go/delete_destination/466",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "go",
+                "delete_destination",
+                "466"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Получить все пункты",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        }
+      ]
+    }
+  ],
+  "auth": {
+    "type": "basic",
+    "basic": [
+      {
+        "key": "password",
+        "value": "{{STUDEN_PASSWORD}}",
+        "type": "string"
+      },
+      {
+        "key": "username",
+        "value": "{{STUDENT_LOGIN}}",
+        "type": "string"
+      }
+    ]
+  },
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ]
+}
