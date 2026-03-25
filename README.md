@@ -32,7 +32,7 @@
 | **[WEB - Форма: уровень английского (вёрстка)](./Project_en_level_Form_vers.md)** | Frontend |
 | **[API: Создание корпорации](./Project_create_corporation.md)** | Работа методов GET, POST, DELETE |  
 | **[API: Раздел «Перелёты»](./Project_per.md)** | Работа методов GET, POST, PATCH, DELETE,  бэкенд + фронтенд |
-| **[БД - работа с бзами данных (SQL)]()** | Базы данных | 
+| **[БД - работа с бзами данных (SQL)](./SQLeducation.md)** | Базы данных | 
 
 ---
 
