@@ -29,7 +29,7 @@
 | Проект | Что тестировал |
 |--------|---------------|
 | **[WEB - Форма: уровень английского (логика)](./WEB_Tests/Project_en_level_Form_log.md)** | Валидация полей |
-| **[WEB - Форма: уровень английского (вёрстка)](./WEB_Tests/Project_en_level_Form_vers.md)** | Frontend |
+| **[WEB - Форма: уровень английского (вёрстка)](./WEB_Tests/Project_en_level_Form_verstka.md)** | Frontend |
 | **[API: Создание корпорации](./API_Tests/Project_create_corporation.md)** | Работа методов GET, POST, DELETE |
 | **[API: Раздел «Перелёты»](./API_Tests/Project_per.md)** | Работа методов GET, POST, PATCH, DELETE, бэкенд + фронтенд |
 | **[БД - работа с базами данных (SQL)](./SQL/SQLeducation.md)** | Базы данных |
