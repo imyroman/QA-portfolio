@@ -16,13 +16,14 @@
 
 ## Что внутри этого репозитория?
 
-| Папка | Описание |
+| Раздел | Описание |
 |-------|----------|
 | [WEB_Tests](./WEB_Tests) | Проекты по тестированию веб-сервисов |
 | [API_Tests](./API_Tests) | Проекты по тестированию API |
 | [SQL](./SQL) | SQL команды для взаимодействия с БД |
 | [Certificates](https://github.com/imyroman/QA-portfolio/tree/main/Certificates) | Сертификаты о прохождении курсов  |
 | [my_resume](https://github.com/imyroman/QA-portfolio/blob/main/my_resume.pdf) | Мое резюме  |
+| [extra](https://github.com/imyroman/QA-portfolio/tree/main/extra) | Другое |
 
 ---
 
