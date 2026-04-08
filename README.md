@@ -21,9 +21,9 @@
 
 | Раздел | Описание |
 |-------|----------|
-| [WEB_Tests](./WEB_Tests) | Проекты по тестированию веб-сервисов |
-| [API_Tests](./API_Tests) | Проекты по тестированию API |
-| [SQL](./SQL) | Мой опыт взаимодействия с БД |
+| [WEB_Tests](./WEB_Tests) | Тестирование веб-сервисов |
+| [API_Tests](./API_Tests) | Тестированиe API |
+| [SQL](./SQL) | Взаимодействиe с БД |
 | [Certificates](https://github.com/imyroman/QA-portfolio/tree/main/Certificates) | Сертификаты о прохождении курсов |
 | [my_resume](https://github.com/imyroman/QA-portfolio/blob/main/resume_QA_ir.pdf) | Резюме |
 | [extra](https://github.com/imyroman/QA-portfolio/tree/main/extra) | Другое |
