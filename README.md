@@ -11,8 +11,7 @@
 - **Составление тест-кейсов и чек-листов**
 - **Написание баг-репортов**
 - **Фундаментальные основы теории тестирования**
-- **Инструменты**: Chrome DevTools, Charles Proxy (breakpoints, Map Local, Map Remote), Postman, Swagger, Jira, Figma, Perfect Pixel, 
-- **Базы данных**: SQL 
+- **Инструменты**: Chrome DevTools, Charles Proxy (breakpoints, Map Local, Map Remote), Postman, Swagger, SQL, Jira, Figma, Perfect Pixel
 
 ---
 
